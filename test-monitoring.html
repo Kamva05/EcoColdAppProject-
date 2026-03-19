@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring Page Test</title>
+    <style>
+        /* Basic styles to simulate the monitoring page */
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Outfit', 'Poppins', Arial, sans-serif;
+            background: linear-gradient(180deg, #f4fbef, #ecfafe);
+            color: #2e2d2d;
+        }
+        
+        .container {
+            max-width: 393px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 14px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: #365f1b;
+            color: white;
+            padding: 20px;
+            border-radius: 14px;
+            margin-bottom: 20px;
+        }
+        
+        .ai-monitoring {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .sub-title {
+            font-size: 14px;
+            color: #c6e9af;
+        }
+        
+        .chart-container {
+            background: white;
+            border: 1px solid #ecf1fe;
+            border-radius: 14px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .chart-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #2e2d2d;
+        }
+        
+        .chart-placeholder {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #e8f2e6, #f4fbef);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #5b9f2d;
+            font-weight: 600;
+            border: 2px dashed #c6e9af;
+        }
+        
+        .status-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .status-card {
+            background: #f4fbef;
+            border-radius: 10px;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        .status-label {
+            font-size: 12px;
+            color: #888a86;
+            margin-bottom: 4px;
+        }
+        
+        .status-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #297a2d;
+        }
+        
+        .recommendation {
+            background: linear-gradient(180deg, #5b9f2d, #6cbf36);
+            color: white;
+            border-radius: 16px;
+            padding: 16px;
+            text-align: center;
+        }
+        
+        .recommendation-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .recommendation-text {
+            font-size: 14px;
+            opacity: 0.9;
+            line-height: 1.4;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 16px;
+            }
+            
+            .status-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="ai-monitoring">AI Monitoring</div>
+            <div class="sub-title">Real-time storage health & alerts</div>
+        </div>
+        
+        <div class="chart-container">
+            <div class="chart-title">24-Hour Temperature Trend</div>
+            <div class="chart-placeholder">
+                Temperature Chart (Interactive SVG)
+            </div>
+            <div style="margin-top: 12px; font-size: 12px; color: #888a86;">
+                <strong>Optimal Range:</strong> 2°C - 6°C • Current: 4.0°C
+            </div>
+        </div>
+        
+        <div class="chart-container">
+            <div class="chart-title">Solar Energy Performance</div>
+            <div class="chart-placeholder">
+                Solar Energy Chart (Interactive SVG)
+            </div>
+        </div>
+        
+        <div class="status-grid">
+            <div class="status-card">
+                <div class="status-label">Current Output</div>
+                <div class="status-value">78%</div>
+            </div>
+            <div class="status-card">
+                <div class="status-label">Battery Level</div>
+                <div class="status-value">92%</div>
+            </div>
+        </div>
+        
+        <div class="recommendation">
+            <div class="recommendation-title">AI Recommendation</div>
+            <div class="recommendation-text">
+                All monitored storage is within optimal range. Consider extending booking at Ojuelegba hub to maximize savings.
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Simple animation to simulate chart updates
+        document.addEventListener('DOMContentLoaded', function() {
+            const chartPlaceholders = document.querySelectorAll('.chart-placeholder');
+            
+            chartPlaceholders.forEach((placeholder, index) => {
+                placeholder.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.02)';
+                    this.style.transition = 'transform 0.3s ease';
+                });
+                
+                placeholder.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+            
+            // Simulate data updates
+            setInterval(() => {
+                const tempValue = document.querySelector('.sub-title');
+                if (tempValue) {
+                    tempValue.textContent = 'Real-time storage health & alerts • Updated: ' + new Date().toLocaleTimeString();
+                }
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
