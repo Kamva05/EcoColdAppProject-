@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arial:ital,wght@0,400&display=swap');
+
+body {
+  margin: 0; 
+  line-height: normal;
+}
+
+.verification {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(180deg, #f4fbef, #ecfafe);
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  color: #2e2d2d;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px 40px 24px;
+}
+
+.otpVerificationScreen {
+  width: 100%;
+  max-width: 345.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.container {
+  align-self: stretch;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 24px;
+  box-sizing: border-box;
+}
+
+.buttonIcon {
+  height: 40px;
+  width: 40px;
+  border-radius: 26843500px;
+  cursor: pointer;
+}
+
+.containerIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 26843500px;
+}
+
+.container2 {
+  align-self: stretch;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 24px;
+  font-family: Outfit;
+}
+
+.heading1 {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enterCode {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+
+.paragraph {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  font-size: 16px;
+  font-family: Poppins;
+}
+
+.weSentA {
+  position: relative;
+}
+
+.paragraph2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  font-size: 20px;
+  color: #5b9f2d;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+
+.div {
+  position: relative;
+  font-weight: 600;
+}
+
+.container3 {
+  align-self: stretch;
+  height: 256px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container4 {
+  width: 100%;
+  max-width: 345px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 24px 0px;
+  box-sizing: border-box;
+  gap: 24px;
+}
+
+.container5 {
+  width: 300px;
+  height: 56px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.phoneInput {
+  height: 56px;
+  width: 48px;
+  position: relative;
+  border-radius: 14px;
+  border: 1.6px solid #888a86;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: 24px;
+  text-align: center;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.phoneInput:focus {
+  border-color: #5b9f2d;
+  box-shadow: 0 0 0 3px rgba(91, 159, 45, 0.1);
+}
+
+.phoneInput2 {
+  height: 56px;
+  width: 48px;
+  position: relative;
+  border-radius: 14px;
+  border: 1.6px solid #888a86;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: 24px;
+  text-align: center;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.phoneInput2:focus {
+  border-color: #5b9f2d;
+  box-shadow: 0 0 0 3px rgba(91, 159, 45, 0.1);
+}
+
+.phoneInput5 {
+  height: 56px;
+  width: 48px;
+  position: relative;
+  border-radius: 14px;
+  border: 1.6px solid #888a86;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: 24px;
+  text-align: center;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.phoneInput5:focus {
+  border-color: #5b9f2d;
+  box-shadow: 0 0 0 3px rgba(91, 159, 45, 0.1);
+}
+
+.paragraph3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 35px;
+  flex-shrink: 0;
+}
+
+.span {
+  line-height: 20px;
+  font-family: Arial;
+}
+
+.s {
+  color: #5b9f2d;
+}
+
+.ecocoldPrimaryButtons {
+  width: 300px;
+  height: 56px;
+  border-radius: 16px;
+  background-color: #5b9f2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+  gap: 24px;
+  flex-shrink: 0;
+  font-size: 16px;
+  color: #f4fbef;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ecocoldPrimaryButtons:hover {
+  background-color: #4a8a24;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(91, 159, 45, 0.3);
+}
+
+.oluronkeMarthasIcons {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.vectorIcon {
+  position: absolute;
+  height: 11.11%;
+  width: 58.33%;
+  top: 50%;
+  right: 20.83%;
+  bottom: 38.89%;
+  left: 20.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.vectorIcon2 {
+  position: absolute;
+  height: 58.33%;
+  width: 29.44%;
+  top: 20.83%;
+  right: 20.56%;
+  bottom: 20.83%;
+  left: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.container6 {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #ecf1fe;
+  text-align: left;
+  color: #2166fc;
+}
+
+.icon2 {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.container7 {
+  position: absolute;
+  top: 12px;
+  left: 52px;
+  width: 171px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.paragraph4 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+}
+
+.checkYourPhone {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.paragraph5 {
+  align-self: stretch;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
+}
+
+.enterThe6Digit {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.container8 {
+  width: 100%;
+  max-width: 300px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.resendText {
+  font-size: 14px;
+  font-family: Poppins;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resendText:hover {
+  opacity: 0.8;
+}
+
+.icon3 {
+  height: 48px;
+  width: 48px;
+  position: relative;
+}
+
+.icon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.icon5 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .verification {
+    padding: 40px 20px 30px 20px;
+  }
+  
+  .otpVerificationScreen {
+    gap: 32px;
+  }
+  
+  .containerIcon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .container3 {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .container4 {
+    width: 100%;
+    max-width: 260px;
+  }
+  
+  .container5 {
+    width: 100%;
+    max-width: 260px;
+  }
+  
+  .phoneInput, .phoneInput2, .phoneInput5 {
+    height: 50px;
+    width: 32px;
+  }
+  
+  .enterCode {
+    font-size: 20px;
+  }
+  
+  .ecocoldPrimaryButtons {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 480px) {
+  .verification {
+    padding: 30px 15px 25px 15px;
+  }
+  
+  .otpVerificationScreen {
+    gap: 28px;
+  }
+  
+  .containerIcon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .container3 {
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  .container4 {
+    width: 100%;
+    max-width: 240px;
+  }
+  
+  .container5 {
+    width: 100%;
+    max-width: 240px;
+  }
+  
+  .phoneInput, .phoneInput2, .phoneInput5 {
+    height: 45px;
+    width: 28px;
+  }
+  
+  .enterCode {
+    font-size: 18px;
+  }
+  
+  .ecocoldPrimaryButtons {
+    width: 100%;
+    max-width: 240px;
+    height: 50px;
+    font-size: 14px;
+  }
+  
+  .container6 {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .verification {
+    padding: 20px 10px 20px 10px;
+  }
+  
+  .otpVerificationScreen {
+    gap: 24px;
+  }
+  
+  .containerIcon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .container3 {
+    width: 100%;
+    max-width: 260px;
+  }
+  
+  .container4 {
+    width: 100%;
+    max-width: 220px;
+  }
+  
+  .container5 {
+    width: 100%;
+    max-width: 220px;
+  }
+  
+  .phoneInput, .phoneInput2, .phoneInput5 {
+    height: 40px;
+    width: 24px;
+  }
+  
+  .enterCode {
+    font-size: 16px;
+  }
+  
+  .ecocoldPrimaryButtons {
+    width: 100%;
+    max-width: 220px;
+    height: 45px;
+    font-size: 13px;
+  }
+  
+  .container6 {
+    margin-top: 12px;
+  }
+}

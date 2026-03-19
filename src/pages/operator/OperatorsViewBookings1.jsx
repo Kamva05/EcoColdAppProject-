@@ -1,0 +1,248 @@
+import React, { useCallback } from 'react';
+import styles from './OperatorsViewBookings1.module.css';
+
+const OperatorsViewBookings1 = () => {
+  const onPrimitivebuttonContainerClick = useCallback(() => {
+    // Add your code here
+  }, []);
+
+  return (
+    <div className={styles.operatorsViewBookings1}>
+      <div className={styles.containerParent}>
+        <div className={styles.container}>
+          <div className={styles.heading1}>
+            <div className={styles.myBookings}>My Bookings</div>
+          </div>
+          <div className={styles.paragraph}>
+            <div className={styles.trackAndManage}>
+              Track and manage your storage
+            </div>
+          </div>
+        </div>
+        <div className={styles.activeBooking}>
+          <div className={styles.container2}>
+            <div className={styles.container3}>
+              <div className={styles.heading1}>
+                <b className={styles.b}>2</b>
+              </div>
+              <div className={styles.paragraph3}>
+                <div className={styles.active}>Active</div>
+              </div>
+            </div>
+            <div className={styles.container4}>
+              <div className={styles.heading1}>
+                <b className={styles.b}>1</b>
+              </div>
+              <div className={styles.paragraph3}>
+                <div className={styles.active}>Upcoming</div>
+              </div>
+            </div>
+            <div className={styles.container5}>
+              <div className={styles.heading1}>
+                <b className={styles.b}>1</b>
+              </div>
+              <div className={styles.paragraph7}>
+                <div className={styles.active}>Completed</div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.primitivediv}>
+            <div className={styles.tabList}>
+              <div className={styles.primitivebutton}>
+                <div className={styles.active2}>Active</div>
+              </div>
+              <div
+                className={styles.primitivebutton2}
+                onClick={onPrimitivebuttonContainerClick}
+              >
+                <div className={styles.active2}>Upcoming</div>
+              </div>
+              <div className={styles.primitivebutton3}>
+                <div className={styles.active2}>Completed</div>
+              </div>
+            </div>
+            <div className={styles.tabPanel}>
+              <div className={styles.container6}>
+                <div className={styles.container7}>
+                  <div className={styles.container8}>
+                    <div className={styles.container9}>
+                      <div className={styles.heading3}>
+                        <b className={styles.sunchillHub}>
+                          SunChill Hub - Ojuelegba
+                        </b>
+                      </div>
+                      <div className={styles.container10}>
+                        <img className={styles.icon} alt="" />
+                        <div className={styles.text}>
+                          <div className={styles.ojuelegbaLagos}>
+                            Ojuelegba, Lagos
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.text2}>
+                      <div className={styles.active3}>active</div>
+                    </div>
+                  </div>
+                  <div className={styles.container11}>
+                    <div className={styles.container12}>
+                      <img className={styles.containerIcon} alt="" />
+                      <div className={styles.container13}>
+                        <div className={styles.paragraph8}>
+                          <div className={styles.ojuelegbaLagos}>Crates</div>
+                        </div>
+                        <div className={styles.paragraph9}>
+                          <b className={styles.b4}>10</b>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.container14}>
+                      <img className={styles.containerIcon} alt="" />
+                      <div className={styles.container15}>
+                        <div className={styles.paragraph8}>
+                          <div className={styles.active}>Duration</div>
+                        </div>
+                        <div className={styles.paragraph9}>
+                          <b className={styles.b4}>Feb 14 - Feb 20</b>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.container16}>
+                    <img className={styles.icon2} alt="" />
+                    <div className={styles.text3}>
+                      <div className={styles.daysRemaining}>
+                        4 days remaining
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.container17}>
+                    <div className={styles.container18}>
+                      <div className={styles.paragraph12}>
+                        <div className={styles.active}>Total Cost</div>
+                      </div>
+                      <div className={styles.paragraph13}>
+                        <b className={styles.b5}>₦9,000</b>
+                      </div>
+                    </div>
+                    <div className={styles.button}>
+                      <div className={styles.details}>Details</div>
+                      <img className={styles.icon3} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.container6}>
+                <div className={styles.container20}>
+                  <div className={styles.container21}>
+                    <div className={styles.container22}>
+                      <div className={styles.heading32}>
+                        <b className={styles.sunchillHub}>GreenStore Facility</b>
+                      </div>
+                      <div className={styles.container10}>
+                        <img className={styles.icon} alt="" />
+                        <div className={styles.text4}>
+                          <div className={styles.ojuelegbaLagos}>
+                            Yaba, Lagos
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.text5}>
+                      <div className={styles.active3}>active</div>
+                    </div>
+                  </div>
+                  <div className={styles.container11}>
+                    <div className={styles.container25}>
+                      <img className={styles.containerIcon} alt="" />
+                      <div className={styles.container13}>
+                        <div className={styles.paragraph8}>
+                          <div className={styles.ojuelegbaLagos}>Crates</div>
+                        </div>
+                        <div className={styles.paragraph9}>
+                          <b className={styles.b4}>5</b>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.container27}>
+                      <img className={styles.containerIcon} alt="" />
+                      <div className={styles.container28}>
+                        <div className={styles.paragraph8}>
+                          <div className={styles.active}>Duration</div>
+                        </div>
+                        <div className={styles.paragraph9}>
+                          <b className={styles.b4}>Feb 15 - Feb 18</b>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.container16}>
+                    <img className={styles.icon2} alt="" />
+                    <div className={styles.text6}>
+                      <div className={styles.daysRemaining}>
+                        2 days remaining
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.container17}>
+                    <div className={styles.container18}>
+                      <div className={styles.paragraph12}>
+                        <div className={styles.active}>Total Cost</div>
+                      </div>
+                      <div className={styles.paragraph13}>
+                        <b className={styles.b5}>₦1,800</b>
+                      </div>
+                    </div>
+                    <div className={styles.button}>
+                      <div className={styles.details}>Details</div>
+                      <img className={styles.icon3} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.bNav}>
+        <div className={styles.home} onClick={onPrimitivebuttonContainerClick}>
+          <div className={styles.ecocoldIcons}>
+            <img className={styles.vectorIcon} alt="" />
+            <img className={styles.vectorIcon2} alt="" />
+          </div>
+          <div className={styles.text7}>
+            <div className={styles.discover}>Home</div>
+          </div>
+        </div>
+        <div className={styles.dis}>
+          <div className={styles.ecocoldIcons}>
+            <img className={styles.vectorIcon3} alt="" />
+          </div>
+          <div className={styles.text7}>
+            <div className={styles.discover}>Alert</div>
+          </div>
+        </div>
+        <div className={styles.dis}>
+          <img className={styles.icon7} alt="" />
+          <div className={styles.text7}>
+            <div className={styles.monitor2}>Monitor</div>
+          </div>
+        </div>
+        <div className={styles.bookings}>
+          <img className={styles.icon7} alt="" />
+          <div className={styles.text7}>
+            <div className={styles.bookings2}>Bookings</div>
+          </div>
+        </div>
+        <div className={styles.dis}>
+          <img className={styles.icon7} alt="" />
+          <div className={styles.text7}>
+            <div className={styles.discover}>Profile</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default OperatorsViewBookings1;

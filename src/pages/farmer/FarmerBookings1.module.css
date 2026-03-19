@@ -1,0 +1,884 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400&display=swap');
+
+body {
+  margin: 0; 
+  line-height: normal;
+}
+
+.farmerBookings1 {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #f4fbef;
+  font-family: Outfit;
+  display: flex;
+  flex-direction: column;
+}
+
+.farmerBookings1Parent {
+  width: 100%;
+  max-width: 393px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px 80px 16px;
+  box-sizing: border-box;
+}
+
+.farmerBookings12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.heading1 {
+  align-self: stretch;
+  height: 28px;
+  position: relative;
+}
+
+.myBookings {
+  position: absolute;
+  top: -1.4px;
+  left: 0px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.paragraph {
+  align-self: stretch;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  color: #888a86;
+  font-family: Poppins;
+}
+
+.trackAndManage {
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.bookingStatus {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 20px;
+  color: #2e2d2d;
+}
+
+.container {
+  width: 100%;
+  max-width: 156px;
+  height: 36px;
+  border-radius: 14px;
+  background-color: #f4fbef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  gap: 4px;
+}
+
+.paragraph2 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+}
+
+.div {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.paragraph3 {
+  align-self: stretch;
+  height: 12px;
+  position: relative;
+  font-size: 10px;
+  color: #297a2d;
+}
+
+.active {
+  position: absolute;
+  top: -0.8px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 156px;
+  height: 36px;
+  border-radius: 14px;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  gap: 4px;
+}
+
+.paragraph4 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+}
+
+.paragraph5 {
+  align-self: stretch;
+  height: 12px;
+  position: relative;
+  font-size: 10px;
+  color: #6b7280;
+}
+
+.bookingCards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.bookingCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.bookingCard2 {
+  align-self: stretch;
+  height: 268px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  font-size: 14px;
+  color: #2e2d2d;
+  font-family: Poppins;
+}
+
+.container3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.paragraph6 {
+  height: 20px;
+  width: 192px;
+  position: relative;
+}
+
+.sunChillHub {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.paragraph7 {
+  height: 20px;
+  width: 40px;
+  position: relative;
+  font-size: 12px;
+  color: #297a2d;
+}
+
+.active2 {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.container4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.paragraph8 {
+  align-self: stretch;
+  height: 16px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.ojuelegbaLagos {
+  position: absolute;
+  top: -0.8px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.container5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.container6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.paragraph9 {
+  height: 16px;
+  width: 40px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.crates {
+  position: absolute;
+  top: -0.8px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.paragraph10 {
+  height: 16px;
+  width: 52px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.duration {
+  position: absolute;
+  top: -0.8px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.container7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.paragraph11 {
+  height: 20px;
+  width: 16px;
+  position: relative;
+}
+
+.div2 {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.paragraph12 {
+  height: 16px;
+  width: 96px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.feb14Feb {
+  position: absolute;
+  top: -0.8px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.container8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.paragraph13 {
+  align-self: stretch;
+  height: 16px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.daysRemaining {
+  position: absolute;
+  top: -0.8px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.container9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.paragraph14 {
+  height: 16px;
+  width: 64px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.totalCost {
+  position: absolute;
+  top: -0.8px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.paragraph15 {
+  height: 20px;
+  width: 52px;
+  position: relative;
+  font-size: 16px;
+  color: #2e2d2d;
+}
+
+.n9000 {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.button {
+  align-self: stretch;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #5b9f2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #f4fbef;
+  font-family: Poppins;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4a8a24;
+  transform: translateY(-1px);
+}
+
+.details {
+  position: relative;
+  font-weight: 600;
+}
+
+.bookingCard3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.bookingCard4 {
+  align-self: stretch;
+  height: 268px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  font-size: 14px;
+  color: #2e2d2d;
+  font-family: Poppins;
+}
+
+.container10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.paragraph16 {
+  height: 20px;
+  width: 144px;
+  position: relative;
+}
+
+.greenStoreFacility {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.paragraph17 {
+  height: 20px;
+  width: 40px;
+  position: relative;
+  font-size: 12px;
+  color: #297a2d;
+}
+
+.container11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.paragraph18 {
+  align-self: stretch;
+  height: 16px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.yabaLagos {
+  position: absolute;
+  top: -0.8px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.container12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.container13 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.paragraph19 {
+  height: 16px;
+  width: 40px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.paragraph20 {
+  height: 16px;
+  width: 52px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.container14 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.paragraph21 {
+  height: 20px;
+  width: 8px;
+  position: relative;
+}
+
+.div3 {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.paragraph22 {
+  height: 16px;
+  width: 96px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.feb15Feb {
+  position: absolute;
+  top: -0.8px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.container15 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.paragraph23 {
+  align-self: stretch;
+  height: 16px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.container16 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.paragraph24 {
+  height: 16px;
+  width: 64px;
+  position: relative;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.paragraph25 {
+  height: 20px;
+  width: 52px;
+  position: relative;
+  font-size: 16px;
+  color: #2e2d2d;
+}
+
+.n1800 {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.button2 {
+  align-self: stretch;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #5b9f2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #f4fbef;
+  font-family: Poppins;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button2:hover {
+  background-color: #4a8a24;
+  transform: translateY(-1px);
+}
+
+.bNav {
+  width: 100%;
+  max-width: 345px;
+  position: relative;
+  box-shadow: 0px 4px 47.9px rgba(0, 0, 0, 0.25);
+  border-radius: 32px 32px 0px 0px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  text-align: center;
+  font-size: 12px;
+  color: #888a86;
+  font-family: Poppins;
+}
+
+.home {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #5b9f2d;
+}
+
+.ecocoldIcons {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.vectorIcon {
+  position: absolute;
+  height: 83.5%;
+  width: 75%;
+  top: 8.33%;
+  right: 12.5%;
+  bottom: 8.17%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.vectorIcon2 {
+  position: absolute;
+  height: 41.5%;
+  width: 25%;
+  top: 50%;
+  right: 37.5%;
+  bottom: 8.5%;
+  left: 37.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.text {
+  align-self: stretch;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dis {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.discover {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.dis2 {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.vectorIcon3 {
+  position: absolute;
+  height: 66.5%;
+  width: 71%;
+  top: 16.67%;
+  right: 12.33%;
+  bottom: 16.83%;
+  left: 16.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.dis3 {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.icon2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.bookings2 {
+  position: relative;
+}
+
+.dis4 {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.icon3 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .farmerBookings1Parent {
+    max-width: 100%;
+    padding: 20px 12px 70px 12px;
+  }
+  
+  .bookingStatus {
+    gap: 12px;
+  }
+  
+  .container, .container2 {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .bookingCard2, .bookingCard4 {
+    height: auto;
+    padding: 12px;
+  }
+  
+  .bNav {
+    max-width: 100%;
+    gap: 16px;
+  }
+  
+  .home, .dis, .dis2, .dis3, .dis4 {
+    width: 52px;
+  }
+}
+
+@media (max-width: 480px) {
+  .farmerBookings1Parent {
+    padding: 16px 8px 60px 8px;
+  }
+  
+  .bookingStatus {
+    gap: 8px;
+  }
+  
+  .container, .container2 {
+    width: 100%;
+  }
+  
+  .bookingCard2, .bookingCard4 {
+    padding: 10px;
+  }
+  
+  .bNav {
+    gap: 12px;
+  }
+  
+  .home, .dis, .dis2, .dis3, .dis4 {
+    width: 48px;
+    height: 60px;
+  }
+  
+  .ecocoldIcons, .icon, .icon2, .icon3 {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .farmerBookings1Parent {
+    padding: 12px 6px 50px 6px;
+  }
+  
+  .bookingStatus {
+    gap: 6px;
+  }
+  
+  .container, .container2 {
+    width: 100%;
+  }
+  
+  .bookingCard2, .bookingCard4 {
+    padding: 8px;
+  }
+  
+  .bNav {
+    gap: 8px;
+  }
+  
+  .home, .dis, .dis2, .dis3, .dis4 {
+    width: 44px;
+    height: 56px;
+  }
+  
+  .ecocoldIcons, .icon, .icon2, .icon3 {
+    width: 16px;
+    height: 16px;
+  }
+}

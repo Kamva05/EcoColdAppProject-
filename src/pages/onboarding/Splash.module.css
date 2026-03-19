@@ -1,0 +1,72 @@
+.splash {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: linear-gradient(180deg, #f4fbef, #ecfafe);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.ecocoldLogoIcon {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  animation: float 3s ease-in-out infinite;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .splash {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .ecocoldLogoIcon {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .splash {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  .ecocoldLogoIcon {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 320px) {
+  .splash {
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+  }
+  
+  .ecocoldLogoIcon {
+    width: 120px;
+    height: 120px;
+  }
+}

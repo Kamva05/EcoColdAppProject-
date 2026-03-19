@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700&display=swap');
+
+body {
+  margin: 0; 
+  line-height: normal;
+}
+
+.newFarmerEntry {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(180deg, #f4fbef, #ecfafe);
+  overflow: hidden;
+  text-align: center;
+  font-size: 12px;
+  color: #888a86;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+}
+
+.bNav {
+  width: 100%;
+  max-width: 393px;
+  position: absolute;
+  top: 787px;
+  left: 0px;
+  box-shadow: 0px 4px 47.9px rgba(0, 0, 0, 0.25);
+  border-radius: 32px 32px 0px 0px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin: 0 auto;
+  padding: 16px;
+  box-sizing: border-box;
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}
+
+.home {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #5b9f2d;
+}
+
+.ecocoldIcons {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.vectorIcon {
+  position: absolute;
+  height: 83.5%;
+  width: 75%;
+  top: 8.33%;
+  right: 12.5%;
+  bottom: 8.17%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.vectorIcon2 {
+  position: absolute;
+  height: 41.5%;
+  width: 25%;
+  top: 50%;
+  right: 37.5%;
+  bottom: 8.5%;
+  left: 37.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.text {
+  align-self: stretch;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dis {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.discover {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.vectorIcon3 {
+  position: absolute;
+  height: 66.5%;
+  width: 71%;
+  top: 16.67%;
+  right: 12.33%;
+  bottom: 16.83%;
+  left: 16.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.containerParent {
+  width: 100%;
+  max-width: 393px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  text-align: left;
+  font-size: 24px;
+  color: #f4fbef;
+  font-family: Outfit;
+  padding: 24px 16px 80px 16px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 393px;
+  height: 136px;
+  background-color: #365f1b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 24px 0px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.container2 {
+  height: 56px;
+  width: 201px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.heading1 {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.welcomeAisha {
+  width: 201px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.paragraph {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  font-size: 14px;
+  color: #c6e9af;
+  font-family: Poppins;
+}
+
+.heresYourStorage {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.buttonIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 26843500px;
+}
+
+.farmerDashboard {
+  width: 100%;
+  max-width: 345px;
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: 12px;
+  color: #888a86;
+  font-family: Poppins;
+}
+
+.container3 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 16px;
+}
+
+.container4 {
+  height: 105px;
+  width: 102px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.container5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+
+.icon4 {
+  position: absolute;
+  top: 16.2px;
+  left: 38.2px;
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph2 {
+  position: absolute;
+  top: 46.2px;
+  left: 4.2px;
+  width: 92px;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.activeBookings {
+  width: 94px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.paragraph3 {
+  position: absolute;
+  top: 68.2px;
+  left: 4.2px;
+  width: 92px;
+  height: 28px;
+  font-size: 20px;
+  color: #2e2d2d;
+  font-family: Outfit;
+}
+
+.div {
+  position: absolute;
+  top: -2.2px;
+  left: 39.24px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.container6 {
+  height: 105px;
+  width: 101px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon5 {
+  position: absolute;
+  top: 17.2px;
+  left: 38.2px;
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph4 {
+  position: absolute;
+  top: 45.2px;
+  left: 4.2px;
+  width: 92px;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.paragraph5 {
+  position: absolute;
+  top: 66.2px;
+  left: 4.2px;
+  width: 92px;
+  height: 28px;
+  font-size: 20px;
+  color: #2e2d2d;
+  font-family: Outfit;
+}
+
+.div2 {
+  position: absolute;
+  top: -2.2px;
+  left: 32.81px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.container8 {
+  height: 105px;
+  width: 102px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.container9 {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+}
+
+.icon6 {
+  position: absolute;
+  top: 15.5px;
+  left: 38.2px;
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph6 {
+  position: absolute;
+  top: 45.5px;
+  left: 4.2px;
+  width: 92px;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.activeAlerts {
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.paragraph7 {
+  position: absolute;
+  top: 67.5px;
+  left: 4.2px;
+  width: 92px;
+  height: 28px;
+  font-size: 20px;
+  color: #2e2d2d;
+  font-family: Outfit;
+}
+
+.container10 {
+  align-self: stretch;
+  height: 160px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  gap: 16px;
+  text-align: left;
+  font-size: 16px;
+  color: #2e2d2d;
+}
+
+.container11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 0px;
+}
+
+.heading4 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+}
+
+.recent {
+  position: absolute;
+  top: -2.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.paragraph8 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+}
+
+.button {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 47px;
+  position: relative;
+  isolation: isolate;
+  gap: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #5b9f2d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  color: #4a8a24;
+  transform: translateY(-1px);
+}
+
+.icon7 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  z-index: 0;
+  flex-shrink: 0;
+}
+
+.discoverHubsNear {
+  height: 21px;
+  width: 136px;
+  position: absolute;
+  margin: 0 !important;
+  top: -1px;
+  left: 0.2px;
+  display: inline-block;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.container12 {
+  align-self: stretch;
+  height: 85px;
+  position: relative;
+  font-size: 14px;
+  color: #f4fbef;
+}
+
+.buttons {
+  position: absolute;
+  top: -0.2px;
+  left: 0px;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #5b9f2d;
+  width: 168px;
+  height: 86px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 14px;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttons:hover {
+  background-color: #4a8a24;
+  transform: translateY(-1px);
+}
+
+.icon8 {
+  position: absolute;
+  top: 16.8px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph9 {
+  position: absolute;
+  top: 49px;
+  left: 16px;
+  width: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 36px;
+  box-sizing: border-box;
+}
+
+.buttons2 {
+  position: absolute;
+  top: -0.2px;
+  left: 177px;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid #f4fbef;
+  box-sizing: border-box;
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 17px 14px;
+  gap: 8px;
+  flex-shrink: 0;
+  color: #2e2d2d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttons2:hover {
+  background-color: #f0f7e9;
+  border-color: #5b9f2d;
+}
+
+.icon9 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.paragraph10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+}
+
+.viewAnalytics {
+  position: relative;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .bNav {
+    max-width: 100%;
+    gap: 16px;
+    padding: 12px;
+  }
+  
+  .home, .dis {
+    width: 52px;
+    height: 60px;
+  }
+  
+  .containerParent {
+    max-width: 100%;
+    padding: 20px 12px 70px 12px;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 40px 16px 0px;
+  }
+  
+  .container2 {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .farmerDashboard {
+    max-width: 100%;
+  }
+  
+  .container3 {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .container4, .container6, .container8 {
+    width: 100%;
+    max-width: 102px;
+  }
+  
+  .container10 {
+    max-width: 100%;
+  }
+  
+  .container12 {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .buttons, .buttons2 {
+    width: 100%;
+    max-width: 168px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bNav {
+    max-width: 100%;
+    gap: 12px;
+    padding: 10px;
+  }
+  
+  .home, .dis {
+    width: 48px;
+    height: 56px;
+  }
+  
+  .containerParent {
+    padding: 16px 8px 60px 8px;
+  }
+  
+  .container {
+    padding: 32px 12px 0px;
+  }
+  
+  .container2 {
+    max-width: 180px;
+  }
+  
+  .farmerDashboard {
+    height: auto;
+  }
+  
+  .container3 {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .container4, .container6, .container8 {
+    width: 100%;
+    max-width: 102px;
+  }
+  
+  .container10 {
+    max-width: 100%;
+    height: auto;
+    padding: 12px 16px;
+  }
+  
+  .container12 {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .buttons, .buttons2 {
+    width: 100%;
+    max-width: 168px;
+  }
+  
+  .ecocoldIcons, .icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bNav {
+    max-width: 100%;
+    gap: 8px;
+    padding: 8px;
+  }
+  
+  .home, .dis {
+    width: 44px;
+    height: 52px;
+  }
+  
+  .containerParent {
+    padding: 12px 6px 50px 6px;
+  }
+  
+  .container {
+    padding: 24px 8px 0px;
+  }
+  
+  .container2 {
+    max-width: 160px;
+  }
+  
+  .farmerDashboard {
+    height: auto;
+  }
+  
+  .container3 {
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .container4, .container6, .container8 {
+    width: 100%;
+    max-width: 102px;
+  }
+  
+  .container10 {
+    max-width: 100%;
+    height: auto;
+    padding: 8px 12px;
+  }
+  
+  .container12 {
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .buttons, .buttons2 {
+    width: 100%;
+    max-width: 168px;
+  }
+  
+  .ecocoldIcons, .icon {
+    width: 16px;
+    height: 16px;
+  }
+}

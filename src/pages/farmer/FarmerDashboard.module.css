@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,600&display=swap');
+
+body {
+  margin: 0; 
+  line-height: normal;
+}
+
+.existingFarmerDashboard {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(180deg, #f4fbef, #ecfafe);
+  overflow: hidden;
+  text-align: center;
+  font-size: 12px;
+  color: #888a86;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+}
+
+.bNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 4px 47.9px rgba(0, 0, 0, 0.25);
+  border-radius: 32px 32px 0px 0px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 393px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  padding: 16px;
+  z-index: 1000;
+}
+
+.home {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #5b9f2d;
+}
+
+.ecocoldIcons {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.vectorIcon {
+  position: absolute;
+  height: 83.5%;
+  width: 75%;
+  top: 8.33%;
+  right: 12.5%;
+  bottom: 8.17%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.vectorIcon2 {
+  position: absolute;
+  height: 41.5%;
+  width: 25%;
+  top: 50%;
+  right: 37.5%;
+  bottom: 8.5%;
+  left: 37.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.text {
+  align-self: stretch;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dis {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dis:hover {
+  transform: translateY(-2px);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.discover {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.vectorIcon3 {
+  position: absolute;
+  height: 66.5%;
+  width: 71%;
+  top: 16.67%;
+  right: 12.33%;
+  bottom: 16.83%;
+  left: 16.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.prof {
+  height: 64px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.containerParent {
+  width: 100%;
+  max-width: 393px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  text-align: left;
+  font-size: 24px;
+  color: #f4fbef;
+  font-family: Outfit;
+  padding-bottom: 100px; /* Space for bottom nav */
+}
+
+.container {
+  width: 100%;
+  max-width: 393px;
+  height: 136px;
+  background-color: #365f1b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 24px 0px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.container2 {
+  height: 56px;
+  width: 201px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.heading1 {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.welcomeBack {
+  position: relative;
+  font-weight: 600;
+}
+
+.paragraph {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  font-size: 14px;
+  color: #c6e9af;
+  font-family: Poppins;
+}
+
+.heresYourStorage {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.buttonIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 26843500px;
+}
+
+.farmerDashboard {
+  width: 100%;
+  max-width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: 12px;
+  color: #888a86;
+  font-family: Poppins;
+}
+
+.container3 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 16px;
+}
+
+.container4 {
+  height: 105px;
+  width: 102px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.container5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+
+.icon4 {
+  position: absolute;
+  top: 16.2px;
+  left: 38.2px;
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph2 {
+  position: absolute;
+  top: 46.2px;
+  left: 4.2px;
+  width: 92px;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.activeBookings {
+  width: 94px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.paragraph3 {
+  position: absolute;
+  top: 68.2px;
+  left: 4.2px;
+  width: 92px;
+  height: 28px;
+  font-size: 20px;
+  color: #2e2d2d;
+  font-family: Outfit;
+}
+
+.div {
+  position: absolute;
+  top: -2.2px;
+  left: 41.24px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.container6 {
+  height: 105px;
+  width: 101px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon5 {
+  position: absolute;
+  top: 17.2px;
+  left: 38.2px;
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph4 {
+  position: absolute;
+  top: 45.2px;
+  left: 4.2px;
+  width: 92px;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.paragraph5 {
+  position: absolute;
+  top: 66.2px;
+  left: 4.2px;
+  width: 92px;
+  height: 28px;
+  font-size: 20px;
+  color: #2e2d2d;
+  font-family: Outfit;
+}
+
+.div2 {
+  position: absolute;
+  top: -2.2px;
+  left: 28.81px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.container8 {
+  height: 105px;
+  width: 102px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.container9 {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+}
+
+.icon6 {
+  position: absolute;
+  top: 15.5px;
+  left: 38.2px;
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph6 {
+  position: absolute;
+  top: 45.5px;
+  left: 4.2px;
+  width: 92px;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.activeAlerts {
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.paragraph7 {
+  position: absolute;
+  top: 67.5px;
+  left: 4.2px;
+  width: 92px;
+  height: 28px;
+  font-size: 20px;
+  color: #2e2d2d;
+  font-family: Outfit;
+}
+
+.div3 {
+  position: absolute;
+  top: -2.2px;
+  left: 40.24px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.container10 {
+  align-self: stretch;
+  height: 332px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+}
+
+.container11 {
+  align-self: stretch;
+  height: 66px;
+  position: relative;
+}
+
+.heading4 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 351.2px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.recentAlerts {
+  position: absolute;
+  top: -2.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.container12 {
+  width: 100%;
+  max-width: 344px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 14px;
+  color: #2e2d2d;
+}
+
+.container13 {
+  align-self: stretch;
+  height: 64px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: flex-start;
+  padding: 12px 12px 0px;
+  box-sizing: border-box;
+  gap: 12px;
+}
+
+.containerIcon {
+  height: 32px;
+  width: 32px;
+  border-radius: 26843500px;
+}
+
+.container14 {
+  height: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.paragraph8 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+}
+
+.paragraph9 {
+  align-self: stretch;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
+  color: #888a86;
+}
+
+.paragraphChild {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.container17 {
+  width: 100%;
+  max-width: 344px;
+  height: 64px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: flex-start;
+  padding: 12px 12px 0px;
+  box-sizing: border-box;
+  gap: 12px;
+}
+
+.container19 {
+  align-self: stretch;
+  height: 85px;
+  position: relative;
+  font-size: 14px;
+  color: #f4fbef;
+}
+
+.buttons {
+  position: absolute;
+  top: -0.2px;
+  left: 0px;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #5b9f2d;
+  width: 168px;
+  height: 86px;
+  flex-shrink: 0;
+}
+
+.icon7 {
+  position: absolute;
+  top: 16.8px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph14 {
+  position: absolute;
+  top: 49px;
+  left: 16px;
+  width: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 36px;
+  box-sizing: border-box;
+}
+
+.buttons2 {
+  position: absolute;
+  top: -0.2px;
+  left: 177px;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid #f4fbef;
+  box-sizing: border-box;
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 17px 14px;
+  gap: 8px;
+  flex-shrink: 0;
+  color: #2e2d2d;
+}
+
+.icon8 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.paragraph15 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+}
+
+.viewAnalytics {
+  position: relative;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .bNav {
+    max-width: 100%;
+    padding: 12px;
+  }
+  
+  .containerParent {
+    max-width: 100%;
+    padding: 0 16px 80px 16px;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 36px 16px 0px;
+  }
+  
+  .container2 {
+    width: 160px;
+  }
+  
+  .farmerDashboard {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  
+  .container3 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .container4, .container6, .container8 {
+    width: 30%;
+    min-width: 90px;
+  }
+  
+  .container10 {
+    padding: 0 16px;
+  }
+  
+  .container12 {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .container13, .container17 {
+    width: 100%;
+  }
+  
+  .container19 {
+    padding: 0 16px;
+  }
+  
+  .buttons, .buttons2 {
+    width: 48%;
+    min-width: 140px;
+  }
+  
+  .buttons2 {
+    left: 52%;
+  }
+}
+
+@media (max-width: 480px) {
+  .bNav {
+    padding: 10px;
+  }
+  
+  .containerParent {
+    padding: 0 12px 70px 12px;
+  }
+  
+  .container {
+    padding: 32px 12px 0px;
+  }
+  
+  .container2 {
+    width: 140px;
+  }
+  
+  .farmerDashboard {
+    padding: 0 12px;
+  }
+  
+  .container4, .container6, .container8 {
+    width: 48%;
+    min-width: 120px;
+  }
+  
+  .container10 {
+    padding: 0 12px;
+  }
+  
+  .container19 {
+    padding: 0 12px;
+  }
+  
+  .buttons, .buttons2 {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .buttons2 {
+    left: 0;
+    top: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bNav {
+    padding: 8px;
+  }
+  
+  .containerParent {
+    padding: 0 8px 60px 8px;
+  }
+  
+  .container {
+    padding: 28px 8px 0px;
+  }
+  
+  .container2 {
+    width: 120px;
+  }
+  
+  .farmerDashboard {
+    padding: 0 8px;
+  }
+  
+  .container4, .container6, .container8 {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .container10 {
+    padding: 0 8px;
+  }
+  
+  .container19 {
+    padding: 0 8px;
+  }
+  
+  .buttons, .buttons2 {
+    width: 100%;
+  }
+  
+  .buttons2 {
+    top: 90px;
+  }
+}

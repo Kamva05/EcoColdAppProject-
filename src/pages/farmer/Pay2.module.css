@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700&display=swap');
+
+body {
+  margin: 0; 
+  line-height: normal;
+}
+
+.pay2 {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #f4fbef;
+  font-family: Outfit;
+  display: flex;
+  flex-direction: column;
+}
+
+.payHeaderParent {
+  width: 100%;
+  max-width: 393px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.payHeader {
+  align-self: stretch;
+  height: 136px;
+  background-color: #365f1b;
+  border-bottom: 0.5px solid #f4fbef;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 48px 16px 0px 24px;
+  gap: 16px;
+}
+
+.buttonIcon {
+  height: 36px;
+  width: 36px;
+  border-radius: 26843500px;
+}
+
+.container {
+  height: 44px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading1 {
+  align-self: stretch;
+  height: 28px;
+  position: relative;
+}
+
+.payment {
+  position: absolute;
+  top: -1.4px;
+  left: 0px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.paragraph {
+  align-self: stretch;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  color: #c6e9af;
+  font-family: Poppins;
+}
+
+.step2Of {
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.payAll2 {
+  width: 100%;
+  max-width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+  color: #2e2d2d;
+}
+
+.pay {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.pay3 {
+  width: 100%;
+  max-width: 345px;
+  height: 1012px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 345px;
+  height: 241px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #000;
+}
+
+.container3 {
+  width: 100%;
+  max-width: 316px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 8px;
+  box-sizing: border-box;
+  gap: 16px;
+}
+
+.heading3 {
+  width: 100%;
+  max-width: 316px;
+  height: 27px;
+  position: relative;
+}
+
+.bookingSummary {
+  position: absolute;
+  top: -2.2px;
+  left: 0px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.container4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 14px;
+  color: #2e2d2d;
+  font-family: Poppins;
+}
+
+.container5 {
+  width: 100%;
+  max-width: 316px;
+  height: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text {
+  height: 20px;
+  width: 26.1px;
+  position: relative;
+}
+
+.hub {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  flex-shrink: 0;
+}
+
+.text2 {
+  height: 20px;
+  width: 160.4px;
+  position: relative;
+}
+
+.text3 {
+  height: 20px;
+  width: 38.7px;
+  position: relative;
+}
+
+.text4 {
+  height: 20px;
+  width: 13.4px;
+  position: relative;
+}
+
+.text5 {
+  height: 20px;
+  width: 54px;
+  position: relative;
+}
+
+.text6 {
+  height: 20px;
+  width: 40.3px;
+  position: relative;
+}
+
+.text7 {
+  height: 20px;
+  width: 83.6px;
+  position: relative;
+}
+
+.text8 {
+  height: 20px;
+  width: 69.3px;
+  position: relative;
+}
+
+.container9 {
+  width: 100%;
+  max-width: 316px;
+  height: 41px;
+  border-top: 0.8px solid #ecf1fe;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px 0px 0px;
+  gap: 20px;
+}
+
+.text9 {
+  height: 28px;
+  width: 86.2px;
+  position: relative;
+}
+
+.text10 {
+  height: 28px;
+  width: 69.2px;
+  position: relative;
+  font-size: 20px;
+  color: #6dbf36;
+  font-family: Outfit;
+}
+
+.container10 {
+  align-self: stretch;
+  height: 322.2px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.8px solid rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container11 {
+  align-self: stretch;
+  height: 320.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 0px;
+  box-sizing: border-box;
+  gap: 12px;
+}
+
+.heading32 {
+  align-self: stretch;
+  height: 27px;
+  position: relative;
+}
+
+.container12 {
+  align-self: stretch;
+  height: 237.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 14px;
+  font-family: Poppins;
+}
+
+.button {
+  align-self: stretch;
+  height: 71.2px;
+  border-radius: 14px;
+  border: 1.6px solid #fafafa;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 12px;
+}
+
+.containerIcon {
+  height: 36px;
+  width: 36px;
+  border-radius: 10px;
+}
+
+.container13 {
+  height: 36px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.paragraph2 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+}
+
+.debitcreditCard {
+  position: absolute;
+  top: -1.2px;
+  left: 0px;
+  display: inline-block;
+  width: 128px;
+  flex-shrink: 0;
+}
+
+.paragraph3 {
+  align-self: stretch;
+  height: 16px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
+  color: #888a86;
+}
+
+.button2 {
+  align-self: stretch;
+  height: 71.2px;
+  border-radius: 14px;
+  background-color: #f4fbef;
+  border: 1.6px solid #5b9f2d;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 12px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+
+.button3 {
+  align-self: stretch;
+  height: 71.2px;
+  border-radius: 14px;
+  border: 1.6px solid #fafafa;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button3:hover {
+  border-color: #5b9f2d;
+  background-color: #f4fbef;
+}
+
+.container16 {
+  align-self: stretch;
+  height: 308.6px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container17 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0px;
+  box-sizing: border-box;
+  gap: 12px;
+  max-width: 100%;
+}
+
+.containerIcon4 {
+  width: 64px;
+  height: 64px;
+  border-radius: 26843500px;
+}
+
+.heading33 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 41px;
+}
+
+.ussdPaymentCode {
+  position: relative;
+  font-weight: 600;
+}
+
+.container18 {
+  align-self: stretch;
+  height: 64px;
+  border-radius: 14px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 16px 0px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+.paragraph8 {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.amount {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+
+.paragraph9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 5px;
+  font-size: 14px;
+  font-family: Poppins;
+}
+
+.dialTheCode {
+  width: 300px;
+  height: 52px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.container19 {
+  width: 100%;
+  max-width: 344px;
+  border-radius: 14px;
+  background-color: #f4fbef;
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 16px;
+  font-size: 14px;
+  color: #297a2d;
+  font-family: Poppins;
+}
+
+.paragraph10 {
+  height: 60px;
+  width: 262px;
+  position: relative;
+}
+
+.securePaymentYourContainer {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  display: inline-block;
+  width: 262px;
+  flex-shrink: 0;
+}
+
+.ecocoldPrimaryButtons {
+  width: 100%;
+  max-width: 345px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #5b9f2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #f4fbef;
+  font-family: Poppins;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ecocoldPrimaryButtons:hover {
+  background-color: #4a8a24;
+  transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .pay2 {
+    padding: 0 16px 80px 16px;
+  }
+  
+  .payHeaderParent {
+    max-width: 100%;
+  }
+  
+  .payHeader {
+    padding: 36px 12px 0px 16px;
+  }
+  
+  .payAll2 {
+    max-width: 100%;
+  }
+  
+  .pay3, .container2, .container10, .container16, .container19 {
+    max-width: 100%;
+  }
+  
+  .container3, .container11, .container17 {
+    max-width: 100%;
+  }
+  
+  .container18 {
+    height: auto;
+    padding: 12px 12px 0px;
+  }
+  
+  .amount {
+    font-size: 20px;
+  }
+  
+  .ecocoldPrimaryButtons {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .pay2 {
+    padding: 0 12px 70px 12px;
+  }
+  
+  .payHeader {
+    padding: 32px 10px 0px 12px;
+  }
+  
+  .pay3, .container2, .container10, .container16, .container19 {
+    width: 100%;
+  }
+  
+  .container3, .container11, .container17 {
+    width: 100%;
+  }
+  
+  .container18 {
+    height: auto;
+    padding: 10px 10px 0px;
+  }
+  
+  .amount {
+    font-size: 18px;
+  }
+  
+  .ecocoldPrimaryButtons {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .pay2 {
+    padding: 0 8px 60px 8px;
+  }
+  
+  .payHeader {
+    padding: 28px 8px 0px 10px;
+  }
+  
+  .pay3, .container2, .container10, .container16, .container19 {
+    width: 100%;
+  }
+  
+  .container3, .container11, .container17 {
+    width: 100%;
+  }
+  
+  .container18 {
+    height: auto;
+    padding: 8px 8px 0px;
+  }
+  
+  .amount {
+    font-size: 16px;
+  }
+  
+  .ecocoldPrimaryButtons {
+    width: 100%;
+  }
+}

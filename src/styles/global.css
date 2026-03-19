@@ -1,0 +1,121 @@
+:root {
+  --green: #2E865F;
+  --blue: #3498DB;
+  --orange: #F39C12;
+  --bg: #f7f9f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: var(--bg);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+h1,h2,h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+.btn {
+  background: var(--green);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 16px;
+}
+
+/* Remove fixed widths and make pages full-width */
+.splash {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.onboarding1, .onboarding2, .onbording3 {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding: 48px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 86px;
+}
+
+.signup, .login, .verification, .choice, .farmerdashboard, .dsicover, .discovermap, 
+.hubdetails, .booking, .pay1, .pay2, .pay3, .bookingconfirmed, .aialert, 
+.farmerbookings1, .farmerbookings2, .farmerprofile, .newfarmerentry, 
+.operatordashboard, .monitoring, .operatorbookings1, .operatorbooking2, 
+.operatorbooking3, .operatoralert, .newoperatordashboard, .operatorprofile {
+  width: 100%;
+  min-height: 100vh;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .splash, .onboarding1, .onboarding2, .onbording3 {
+    padding: 24px 16px;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 12px;
+  }
+  
+  .splash, .onboarding1, .onboarding2, .onbording3 {
+    padding: 16px 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 8px;
+  }
+  
+  .splash, .onboarding1, .onboarding2, .onbording3 {
+    padding: 12px 8px;
+  }
+}
